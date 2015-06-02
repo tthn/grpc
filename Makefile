@@ -254,6 +254,8 @@ CXXFLAGS += -std=c++0x
 endif
 CPPFLAGS += -g -Wall -Wextra -Werror -Wno-long-long -Wno-unused-parameter
 LDFLAGS += -g
+CXXFLAGS += -g
+CFLAGS += -g
 
 ifneq ($(SYSTEM),MINGW32)
 PIC_CPPFLAGS = -fPIC
